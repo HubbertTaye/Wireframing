@@ -1,0 +1,431 @@
+*{
+  box-sizing: border-box;
+  font-size: 10px;
+  font-family: arial;
+}
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+a{
+  text-decoration: none;
+}
+li{
+  list-style: none;
+}
+/* styling starts */
+nav li{
+  display: inline-block;
+  margin: 5px 20px;
+  font-size: 2em;
+}
+header nav li:first-of-type{
+  display: none;
+}
+nav + section{
+  background: RGB(241,243,245);
+}
+header nav ul{
+  background: white;
+  text-align: center;
+}
+header nav li:last-of-type{
+  background: black;
+  padding: 5px 35px 10px;
+}
+header nav li a{
+  color: white;
+  font-size: 1em;
+}
+/* under nav in header */
+header nav + section{
+  clear: both;
+}
+.starter > section{
+  float: left;
+  width: 40%;
+  margin: 50px 25% 0 40px;
+}
+.starter > section img{
+  margin: 0 0 4px 17%;
+}
+.starter h1{
+  font-size: 3em;
+  margin: 10px 0;
+  font-weight: lighter;
+}
+.starter p{
+  font-size: 2em;
+  margin-top: 6px;
+  width: 90%;
+}
+.starter span{
+  display: block;
+}
+.starter input{
+  width: 40%;
+  height: 27px;
+  padding-left: 5px;
+  margin-top: 5px;
+  border: 1px solid RGB(178,187,192);
+  border-radius: 4px;
+}
+.starter button{
+  padding: 6px 30px;
+  margin-left: 10px;
+  border-radius: 3px;
+  border: 1px solid RGB(178,187,192);
+  color: white;
+  background: RGB(184,197,207);
+}
+.starter > section + img{
+  padding-top: 30px;
+}
+/* header end */
+header + section{
+margin: 0 0 40px 16%;
+}
+header + section h2{
+  font-size: 3em;
+  width: 80%;
+  text-align: center;
+}
+header + section p:first-of-type{
+  margin: 15px 30px 0 8%;
+}
+header + section p{
+  float: left;
+  width: 32%;
+}
+header + section p span{
+  font-weight: bold;
+  border-top: 2px solid pink;
+  padding-top: 5px;
+}
+header + section p, header + section p span{
+  font-size: 1.333em;
+}
+header + section p:last-of-type{
+  clear: both;
+  text-align: center;
+  width: 56%;
+  color: RGB(190,198,202);
+  margin-left: 10%;
+}
+/* our history */
+.history{
+  clear: both;
+  background: RGB(241,243,245);
+}
+.history p, .history section{
+  float: left;
+}
+.history p{
+  font-size: 2em;
+  margin: 10px 0;
+}
+.history h2{
+  font-size: 2.5em;
+  margin: 0 0 0 30px;
+}
+.history section:first-of-type{
+  width: 40%;
+  margin-left: 30px;
+}
+.history section:last-of-type{
+  width: 35%;
+  margin-left: 10%;
+}
+.history section img{
+  margin: 0 0 5px 50px;
+  width: 80%;
+}
+.history section span{
+  display: block;
+  color: lightgray;
+  text-align: center;
+  font-style: italic;
+}
+/* who we are */
+.leader h2{
+  font-size: 2.5em;
+  margin: 30px;
+  text-align: center;
+}
+.leader > section{
+  border: 1px solid lightgray;
+  padding: 10px 30px;
+  width: 80%;
+  margin-left: 10%;
+}
+.leader section > section{
+  float: left;
+  margin-left: 30px;
+  width: 65%;
+}
+.leader section h3{
+  font-weight: bold;
+  font-size: 1.699em;
+}
+.leader img{
+  float: left;
+}
+.leader section p{
+  margin-left: 30px;
+  font-size: 1.699em;
+}
+/* related organizations */
+.fish{
+  float: left;
+  width: 40%;
+  margin: 0 10% 0 10%;
+}
+.fish h3{
+  text-transform: uppercase;
+  font-size: 1.5em;
+  margin-bottom: 0;
+  font-weight: lighter;
+}
+.fish p{
+  font-size: 1.3em;
+}
+.fish + section{
+  float: left;
+  width: 30%;
+  margin-bottom: 18px;
+}
+.fish + section img{
+  height: 30px;
+  margin: 0;
+}
+.fish + section h3{
+  margin-bottom: 2px;
+}
+.fish + section p{
+  font-size: 1.3em;
+  margin: 0;
+}
+/* footer */
+footer{
+  width: 100%;
+  clear: both;
+  background-color: RGB(143,156,163);
+}
+.newsletterSignUp{
+  background-color: RGB(184,197,208);
+}
+.newsletterSignUp > section{
+  margin: 0 0 0 25%;
+}
+.newsletterSignUp > section section{
+  float: left;
+}
+.newsletterSignUp h4{
+  color: white;
+  text-align: center;
+  font-size: 2em;
+  font-weight: lighter;
+}
+.newsletterSignUp form{
+  width: 60%;
+  float: left;
+  margin: 23px 0 0 10%;
+}
+.newsletterSignUp input, .newsletterSignUp button{
+  height: 30px;
+  border-radius: 3px;
+  border: 1px solid RGB(147,160,168);
+}
+.newsletterSignUp input{
+  width: 50%;
+}
+.newsletterSignUp button{
+  width: 15%;
+  margin-left: 20px;
+  color: white;
+  background-color: RGB(143,156,163);
+}
+.newsletterSignUp + section{
+  clear: both;
+}
+.newsletterSignUp + section span{
+  float: left;
+  margin: 0 18% 0 2%;
+  color: white;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.newsletterSignUp + section section{
+  border-bottom: 1px solid white;
+  padding: 19px 0 32px 0px;
+}
+.newsletterSignUp + section ul{
+  margin: 0;
+}
+.newsletterSignUp + section ul li{
+  float: left;
+  margin-left: 35px;
+  color: white;
+  font-size: 1.5em;
+}
+.newsletterSignUp + section ul li:first-of-type{
+  margin-left:30%;
+}
+footer nav section li{
+  color: white;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-left: 50px;
+}
+.footerBasicNav{
+  margin-left: 26%;
+}
+footer nav section + section li{
+  color: white;
+  font-size: 1em;
+  margin-left: 0;
+  display: inherit;
+}
+footer nav section + section ul:first-of-type{
+  float: left;
+  margin-left: 30%;
+}
+footer nav section + section ul:nth-of-type(2){
+  float:left;
+  padding-left: 15px;
+}
+footer nav section + section ul:last-of-type{
+  float: left;
+  padding-left: 0px;
+}
+@media (min-width: 768px) and (max-width: 1024px){
+  header nav li{
+    display: none;
+  }
+  header nav li:first-of-type, header nav li:nth-last-of-type(2){
+    display: block;
+    float: left;
+    margin-left: 0;
+  }
+  .fa-bars{
+    font-size: 1.2em;
+  }
+  .starter > section{
+    width: 100%;
+    margin-right: 0;
+  }
+  .starter > section img{
+    width: 50%;
+    height: auto;
+  }
+  .starter > section + img{
+    margin-left: 24%;
+  }
+  header + section p{
+    margin-left: 1%;
+    font-size: 1.8em;
+    width: 56%;
+  }
+  header + section p:first-of-type{
+    margin-left: -10%;
+    font-size: 1.8em;
+    width: 46%;
+  }
+  header + section p:last-of-type{
+    margin-left: 12%;
+  }
+  .history {
+    display: none;
+  }
+  .leader{
+    display: none;
+  }
+  .fish h3, .fish p{
+    font-size: 2em;
+  }
+  .fish + section p{
+    font-size: 1.8em;
+  }
+  .newsletterSignUp{
+    display: none;
+  }
+  .newsletterSignUp + section span{
+    margin: 0 0 0 0;
+  }
+  .newsletterSignUp + section ul li:first-of-type{
+    margin-left: 50px;
+  }
+  footer nav, .footerBasicNav, .footerBasicNav + section{
+    display: none;
+  }
+}
+@media only screen and (max-width: 767px){
+  header nav li{
+    display: none;
+  }
+  header nav li:first-of-type, header nav li:nth-last-of-type(2){
+    display: block;
+    float: left;
+    margin-left: 0;
+  }
+  .fa-bars{
+    font-size: 1.2em;
+  }
+  .starter > section{
+    width: 100%;
+    margin-right: 0;
+  }
+  .starter > section img{
+    width: 50%;
+    height: auto;
+  }
+  .starter > section + img{
+    display: none;
+  }
+  header + section p, header + section p:first-of-type{
+    margin-left: 0%;
+    font-size: 1.8em;
+    width: 100%;
+  }
+  header + section p:last-of-type{
+    margin-left: 12%;
+  }
+  .history {
+    display: none;
+  }
+  .leader{
+    display: none;
+  }
+  .fish{
+    width: 80%;
+  }
+  .fish h3, .fish p{
+    font-size: 2em;
+  }
+  .fish + section{
+    margin-left: 11%;
+    width: 80%;
+  }
+  .fish + section p{
+    font-size: 1.8em;
+  }
+  .newsletterSignUp{
+    display: none;
+  }
+  .newsletterSignUp + section span{
+    margin: 0 0 0 0;
+  }
+  .newsletterSignUp + section ul li{
+    margin-left: 1%;
+  }
+  .newsletterSignUp + section ul li:first-of-type{
+    margin-left: 10%;
+  }
+  footer nav, .footerBasicNav, .footerBasicNav + section{
+    display: none;
+  }
+}

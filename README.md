@@ -1,6 +1,6 @@
 # Responsive Website Wireframe (First Page)
 
-**Link to live demo:**
+**Link to live demo:**  https://hubberttaye.github.io/Wireframing/
 
 ## How it works:
 
